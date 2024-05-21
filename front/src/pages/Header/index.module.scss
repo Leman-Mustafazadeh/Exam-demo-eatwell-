@@ -1,0 +1,37 @@
+header{
+    padding: 20px 0;
+    z-index:10000;
+    position: relative;
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .head_left {
+            h1{
+                font-size: 1.25rem;
+                color: #fff;
+                font-weight: 300;
+            }
+
+        }
+        .head_right{
+            ul{
+                display: flex;
+                gap: 20px;
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        color: rgba(255, 255, 255, .5);
+                    }
+                    a:hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
